@@ -1,0 +1,27 @@
+name: Cross-Repository Integration Contract
+on:
+  workflow_dispatch:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate evidence schema
+        run: |
+          python - <<'PY'
+          import json
+          with open("platform/evidence.schema.json") as f:
+              s=json.load(f)
+          required=set(s["required"])
+          assert {"request_id","trace_id","stage","decision","timestamp"} <= required
+          assert set(s["properties"]["decision"]["enum"]) == {"ALLOW","DENY","FAIL"}
+          print("evidence contract: OK")
+          PY
+      - name: Test trace and evidence helpers
+        run: python -m pytest platform/test_evidence.py -q
