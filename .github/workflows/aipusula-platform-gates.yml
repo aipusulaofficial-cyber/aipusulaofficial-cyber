@@ -1,0 +1,32 @@
+name: AIPusula AI Platform Gates
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  platform-gates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Contract checks
+        run: |
+          test -f docs/AIPUSULA-PLATFORM-INTEGRATION.md || true
+
+      - name: Security evidence
+        run: |
+          echo "Run repository-specific SAST, dependency, secret, container and IaC scanners here."
+
+      - name: Quality gate
+        run: |
+          echo "Run repository-specific tests/evaluations and fail on configured thresholds."
+
+      - name: Provenance gate
+        run: |
+          echo "Require SBOM/provenance/signature verification before production deployment."
+
+      - name: Evidence
+        run: |
+          echo "Publish measured benchmark, SLO, quality and cost evidence; never fabricate values."
