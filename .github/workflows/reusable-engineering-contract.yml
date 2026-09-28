@@ -64,7 +64,7 @@ jobs:
       - name: Python test quality gate
         if: hashFiles('**/test_*.py') != '' || hashFiles('**/*_test.py') != ''
         run: |
-          python -m pip install pytest
+          python -m pip install pytest hypothesis httpx2
           python - <<'PY'
           from pathlib import Path
           import re
