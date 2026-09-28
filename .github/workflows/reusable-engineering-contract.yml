@@ -114,7 +114,7 @@ jobs:
           if [ -f pnpm-lock.yaml ]; then
             corepack enable
             pnpm install --frozen-lockfile
-            pnpm audit --audit-level high
+            pnpm audit --prod --audit-level high
           elif [ -f package-lock.json ]; then
             npm ci
             npm audit --audit-level=high
