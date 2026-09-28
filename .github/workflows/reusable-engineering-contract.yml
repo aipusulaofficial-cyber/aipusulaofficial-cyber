@@ -99,7 +99,7 @@ jobs:
 
       - name: Python tests
         if: inputs.run-tests && hashFiles('pyproject.toml') != ''
-        run: python -m pytest -q
+        run: python -m pytest -q --asyncio-mode=auto
 
       - name: Python build
         if: inputs.run-build && hashFiles('pyproject.toml') != ''
