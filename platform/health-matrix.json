@@ -1,0 +1,13 @@
+{
+  "contract_version": "1.0",
+  "source_of_truth": "aipusulaofficial-cyber/.github/workflows/reusable-engineering-contract.yml",
+  "repositories": [
+    "ai-evaluation-platform","mlops-model-platform","aipusula-report","ai-reliability-platform",
+    "real-time-ai-pipeline","ai-observability-platform","secure-ai-gateway",
+    "autonomous-agent-orchestrator","ai-security-platform","ai-model-registry","ai-feature-store",
+    "agentic-engineering-platform","ai-evaluation-framework","ai-data-governance-platform",
+    "ai-workflow-engine","ai-api-platform","event-driven-ai-platform","AIPUSULA-Design-System-",
+    "ai-cost-optimization-platform","cloud-native-ai-platform","enterprise-rag-platform",
+    "distributed-ai-inference-platform"
+  ]
+}
