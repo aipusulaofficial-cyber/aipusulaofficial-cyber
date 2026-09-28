@@ -79,6 +79,24 @@ jobs:
               raise SystemExit("No-op tests detected: " + ", ".join(bad))
           PY
 
+      - name: Runtime evidence implementation
+        if: hashFiles('runtime_evidence.py') != ''
+        shell: bash
+        run: |
+          python - <<'PY'
+          import importlib
+          import time
+          mod = importlib.import_module("runtime_evidence")
+          evidence = mod.runtime_evidence(request_id="ci-smoke-request", stage="ci.runtime-evidence", decision="ALLOW", started=time.perf_counter())
+          required = {"request_id","trace_id","stage","decision","timestamp","latency_ms","error","cost_usd"}
+          missing = required - evidence.keys()
+          if missing: raise SystemExit(f"runtime evidence missing fields: {sorted(missing)}")
+          if evidence["decision"] not in {"ALLOW","DENY","FAIL"}: raise SystemExit("invalid decision")
+          if not isinstance(evidence["latency_ms"], (int,float)) or evidence["latency_ms"] < 0: raise SystemExit("invalid latency_ms")
+          if not isinstance(evidence["cost_usd"], (int,float)) or evidence["cost_usd"] < 0: raise SystemExit("invalid cost_usd")
+          print("runtime evidence contract: PASS")
+          PY
+
       - name: Python tests
         if: inputs.run-tests && hashFiles('pyproject.toml') != ''
         run: python -m pytest -q
