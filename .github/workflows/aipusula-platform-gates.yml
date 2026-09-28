@@ -4,6 +4,10 @@ on:
   pull_request:
   push:
     branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   platform-gates:
@@ -11,22 +15,50 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
       - name: Contract checks
         run: |
-          test -f docs/AIPUSULA-PLATFORM-INTEGRATION.md || true
-
-      - name: Security evidence
-        run: |
-          echo "Run repository-specific SAST, dependency, secret, container and IaC scanners here."
+          test -f docs/AIPUSULA-PLATFORM-INTEGRATION.md
+          test -f platform/evidence.schema.json
+          python -m json.tool platform/evidence.schema.json >/dev/null
 
       - name: Quality gate
         run: |
-          echo "Run repository-specific tests/evaluations and fail on configured thresholds."
+          python -m pip install --disable-pip-version-check pytest
+          python -m pytest platform/test_end_to_end.py platform/test_evidence.py -q
+          python -m compileall -q platform
 
-      - name: Provenance gate
+      - name: Dependency integrity
+        run: python -m pip check
+
+      - name: Evidence gate
         run: |
-          echo "Require SBOM/provenance/signature verification before production deployment."
+          test -f platform/evidence.py
+          grep -q '"request_id"' platform/evidence.schema.json
+          grep -q '"trace_id"' platform/evidence.schema.json
+          grep -q '"decision"' platform/evidence.schema.json
 
       - name: Evidence
         run: |
-          echo "Publish measured benchmark, SLO, quality and cost evidence; never fabricate values."
+          mkdir -p artifacts
+          PYTHONPATH=platform python - <<'PY'
+          import json
+          from pathlib import Path
+          from test_end_to_end import run_flow
+
+          records = run_flow()
+          assert len(records) == 8
+          assert all(record["decision"] == "ALLOW" for record in records)
+          Path("artifacts/integration-trace.json").write_text(
+              json.dumps(records, indent=2), encoding="utf-8"
+          )
+          PY
+
+      - name: Upload evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: aipusula-platform-evidence
+          path: artifacts/integration-trace.json
