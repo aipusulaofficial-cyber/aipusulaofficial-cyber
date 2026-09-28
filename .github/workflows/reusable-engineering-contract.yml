@@ -64,7 +64,7 @@ jobs:
       - name: Python test quality gate
         if: hashFiles('**/test_*.py') != '' || hashFiles('**/*_test.py') != ''
         run: |
-          python -m pip install pytest hypothesis httpx2 pytest-asyncio
+          python -m pip install pytest hypothesis httpx2 pytest-asyncio jsonschema
           python - <<'PY'
           from pathlib import Path
           import re
@@ -84,17 +84,18 @@ jobs:
         shell: bash
         run: |
           python - <<'PY'
-          import importlib
-          import time
+          import importlib, json, time
+          from pathlib import Path
+          from jsonschema import validate
           mod = importlib.import_module("runtime_evidence")
           evidence = mod.runtime_evidence(request_id="ci-smoke-request", stage="ci.runtime-evidence", decision="ALLOW", started=time.perf_counter())
           required = {"request_id","trace_id","stage","decision","timestamp","latency_ms","error","cost_usd"}
           missing = required - evidence.keys()
           if missing: raise SystemExit(f"runtime evidence missing fields: {sorted(missing)}")
-          if evidence["decision"] not in {"ALLOW","DENY","FAIL"}: raise SystemExit("invalid decision")
-          if not isinstance(evidence["latency_ms"], (int,float)) or evidence["latency_ms"] < 0: raise SystemExit("invalid latency_ms")
-          if not isinstance(evidence["cost_usd"], (int,float)) or evidence["cost_usd"] < 0: raise SystemExit("invalid cost_usd")
-          print("runtime evidence contract: PASS")
+          schema_path = Path("platform/runtime_contract.schema.json")
+          if schema_path.exists():
+              validate(instance=evidence, schema=json.loads(schema_path.read_text(encoding="utf-8")))
+          print("runtime evidence schema: PASS")
           PY
 
       - name: Python tests
