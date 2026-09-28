@@ -1,4 +1,4 @@
-name: Reusable Engineering Contract
+name: Engineering Contract v1
 
 on:
   workflow_call:
@@ -6,7 +6,7 @@ on:
       python-version:
         required: false
         type: string
-        default: "3.11"
+        default: "3.12"
       run-tests:
         required: false
         type: boolean
