@@ -1,0 +1,30 @@
+name: Platform Health Matrix
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Refresh matrix
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python platform/update_health_matrix.py
+      - name: Commit matrix
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add platform/health-matrix.json docs/PLATFORM-HEALTH-MATRIX.md
+          git diff --cached --quiet || git commit -m "chore: refresh platform health matrix"
+          git push
