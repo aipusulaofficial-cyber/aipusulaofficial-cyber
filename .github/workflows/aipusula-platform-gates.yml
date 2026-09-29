@@ -25,7 +25,7 @@ jobs:
       - name: Quality gate
         run: |
           python -m pip install --disable-pip-version-check pytest
-          python -m pytest platform/test_end_to-end.py platform/test_evidence.py -q
+          python -m pytest platform/test_end_to_end.py platform/test_evidence.py -q
           python -m compileall -q platform
       - name: Dependency integrity
         run: python -m pip check
