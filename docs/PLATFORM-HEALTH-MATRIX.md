@@ -1,26 +1,28 @@
 # Platform Engineering Control Plane
 
-| Repository | Status | Conclusion | Commit | Run |
-|---|---|---|---|---|
-| ai-evaluation-platform | completed | success | 5dddb0d5 | 36568803057 |
-| mlops-model-platform | completed | success | 5ca3462a | 36568829106 |
-| aipusula-report | completed | success | 9c716bbb | 36579095161 |
-| ai-reliability-platform | completed | success | 819d9798 | 36568957927 |
-| real-time-ai-pipeline | completed | success | 8dae059c | 36571434202 |
-| ai-observability-platform | completed | success | d7697b99 | 36579024649 |
-| secure-ai-gateway | completed | success | c130259c | 36579254902 |
-| autonomous-agent-orchestrator | completed | success | 855dab49 | 36572090890 |
-| ai-security-platform | completed | success | 4bb86bb3 | 36579088900 |
-| ai-model-registry | completed | success | f551bd11 | 36573597837 |
-| ai-feature-store | completed | success | 961c83cc | 36571785275 |
-| agentic-engineering-platform | completed | success | 8ec0737e | 36578983767 |
-| ai-evaluation-framework | completed | success | 697daa6b | 36578999128 |
-| ai-data-governance-platform | completed | success | 75b4baa8 | 36579004665 |
-| ai-workflow-engine | completed | success | be576f81 | 36579085461 |
-| ai-api-platform | completed | success | c5ba4bb4 | 36579075726 |
-| event-driven-ai-platform | completed | success | fc7417b7 | 36571194505 |
-| AIPUSULA-Design-System- | error | HTTP Error 404: Not Found |  |  |
-| ai-cost-optimization-platform | completed | success | e221512b | 36568952021 |
-| cloud-native-ai-platform | completed | success | d0bb29b7 | 36570973682 |
-| enterprise-rag-platform | completed | success | a9dfe6d5 | 36568823306 |
-| distributed-ai-inference-platform | completed | success | 5d2da652 | 36568813887 |
+This matrix reflects workflow runs attached to the latest observed main commit; unavailable repositories are not treated as passing.
+
+| Repository | Status | Conclusion | Commit | Gates |
+|---|---|---|---|---:|
+| ai-evaluation-platform | completed | success | e7a4c429 | 7 |
+| mlops-model-platform | completed | success | 4ca055d6 | 10 |
+| aipusula-report | completed | success | 8cca1414 | 6 |
+| ai-reliability-platform | completed | success | 929cf39c | 9 |
+| real-time-ai-pipeline | completed | success | 89a21969 | 7 |
+| ai-observability-platform | completed | success | ac5881e4 | 7 |
+| secure-ai-gateway | completed | success | b9506ed2 | 9 |
+| autonomous-agent-orchestrator | completed | success | a50659d1 | 7 |
+| ai-security-platform | completed | success | cf3672e3 | 10 |
+| ai-model-registry | completed | success | db868cbf | 10 |
+| ai-feature-store | completed | success | bc9560d0 | 7 |
+| agentic-engineering-platform | completed | success | f0bc8b27 | 7 |
+| ai-evaluation-framework | completed | success | cde68259 | 7 |
+| ai-data-governance-platform | completed | success | 3ebf8303 | 7 |
+| ai-workflow-engine | completed | success | af2d03ad | 7 |
+| ai-api-platform | completed | success | 46e6cf62 | 7 |
+| event-driven-ai-platform | completed | success | 24818bc2 | 7 |
+| AIPUSULA-Design-System- | unavailable | repository access unavailable |  | 0 |
+| ai-cost-optimization-platform | completed | success | 04871564 | 9 |
+| cloud-native-ai-platform | completed | success | eb294610 | 7 |
+| enterprise-rag-platform | completed | success | b43a8962 | 8 |
+| distributed-ai-inference-platform | completed | success | fcd3655f | 9 |
