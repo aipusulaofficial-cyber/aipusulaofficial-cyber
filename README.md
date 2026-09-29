@@ -4,9 +4,11 @@
 
 ## Engineering Portfolio
 
-A **22-repository engineering portfolio** spanning the major layers of modern AI platform engineering — from evaluation and agentic execution to inference, MLOps, security, observability, reliability, governance, and FinOps.
+A **22-project engineering portfolio** (21 public projects and one private design-system project), plus this GitHub profile repository, spanning the major layers of modern AI platform engineering — from evaluation and agentic execution to inference, MLOps, security, observability, reliability, governance, and FinOps.
 
 The portfolio is organized as one engineering system rather than a collection of unrelated demos.
+
+**Evidence transparency:** The [platform health matrix](docs/PLATFORM-HEALTH-MATRIX.md) is a timestamped snapshot of workflow evidence for observed main commits, not a guarantee that a new commit or unmerged pull request is green. Private repositories may be marked unavailable to the public health refresh.
 
 ## Portfolio Architecture
 
