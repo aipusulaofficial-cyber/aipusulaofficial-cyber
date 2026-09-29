@@ -53,3 +53,9 @@ The first 22 draft PR heads (21 application repositories plus this portfolio) pa
 - [Report frontend coverage and browser-level behavior](https://github.com/aipusulaofficial-cyber/aipusula-report/issues/3): a server-only coverage percentage cannot stand in for the whole app.
 - [Report reproducible coverage dependencies](https://github.com/aipusulaofficial-cyber/aipusula-report/issues/4): the coverage job still installs its provider dynamically and requires a regenerated, committed pnpm lockfile.
 - The private design-system's independent contract workflow validates tokens/components; its main CI file was not modified because the write attempt was blocked.
+
+## Coverage denominator integrity
+
+Python repositories previously measured `--cov=.`, which included regression test implementation files in the coverage denominator. Their 20 audit PRs now include an explicit `.coveragerc` or equivalent scope to omit test implementation from the source measurement, while retaining the corrected JUnit suite counts. The gateway's independently verified scoped result is **36 tests and 87.12% source line coverage**, subject to verification against each subsequent PR head. These corrected measurements are not comparable with the older test-inclusive figures.
+
+Coverage gates must be agreed against the **source-only** baseline. In particular, JUnit test counts, application source coverage and runtime production evidence are three separate claims; do not conflate them. Subsequent changes invalidate an earlier GREEN snapshot until GitHub Actions completes again.
