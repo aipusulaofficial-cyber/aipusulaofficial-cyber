@@ -6,10 +6,13 @@ permissions:
   contents: read
 jobs:
   contract:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c # v6.0.0
         with:
           python-version: "3.11"
       - name: Validate evidence schema
@@ -17,10 +20,10 @@ jobs:
           python - <<'PY'
           import json
           with open("platform/evidence.schema.json") as f:
-              s=json.load(f)
-          required=set(s["required"])
-          assert {"request_id","trace_id","stage","decision","timestamp"} <= required
-          assert set(s["properties"]["decision"]["enum"]) == {"ALLOW","DENY","FAIL"}
+              s = json.load(f)
+          required = set(s["required"])
+          assert {"request_id", "trace_id", "stage", "decision", "timestamp"} <= required
+          assert set(s["properties"]["decision"]["enum"]) == {"ALLOW", "DENY", "FAIL"}
           print("evidence contract: OK")
           PY
       - name: Test trace and evidence helpers
