@@ -1,13 +1,181 @@
 {
   "contract_version": "1.0",
-  "source_of_truth": "aipusulaofficial-cyber/.github/workflows/reusable-engineering-contract.yml",
   "repositories": [
-    "ai-evaluation-platform","mlops-model-platform","aipusula-report","ai-reliability-platform",
-    "real-time-ai-pipeline","ai-observability-platform","secure-ai-gateway",
-    "autonomous-agent-orchestrator","ai-security-platform","ai-model-registry","ai-feature-store",
-    "agentic-engineering-platform","ai-evaluation-framework","ai-data-governance-platform",
-    "ai-workflow-engine","ai-api-platform","event-driven-ai-platform","AIPUSULA-Design-System-",
-    "ai-cost-optimization-platform","cloud-native-ai-platform","enterprise-rag-platform",
-    "distributed-ai-inference-platform"
+    {
+      "repository": "ai-evaluation-platform",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "5dddb0d59ce4693addc9a96302c092cac2296033",
+      "run_id": 36568803057,
+      "updated_at": "2026-09-29T12:33:54Z"
+    },
+    {
+      "repository": "mlops-model-platform",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "5ca3462adf3e683bdd38f2ff6724252a29b49263",
+      "run_id": 36568829106,
+      "updated_at": "2026-09-29T12:34:30Z"
+    },
+    {
+      "repository": "aipusula-report",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "9c716bbb13bcee956b4e6a00968a26506f21a039",
+      "run_id": 36579095161,
+      "updated_at": "2026-09-29T13:59:02Z"
+    },
+    {
+      "repository": "ai-reliability-platform",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "819d979814b52588a6fe5619110b4be0864726e1",
+      "run_id": 36568957927,
+      "updated_at": "2026-09-29T12:37:26Z"
+    },
+    {
+      "repository": "real-time-ai-pipeline",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "8dae059c8b965240ff3ec7afd273f10a77f5c3a5",
+      "run_id": 36571434202,
+      "updated_at": "2026-09-29T12:56:18Z"
+    },
+    {
+      "repository": "ai-observability-platform",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "d7697b99eea6f5f1c0c326b696b344f89ee382b0",
+      "run_id": 36579024649,
+      "updated_at": "2026-09-29T13:58:35Z"
+    },
+    {
+      "repository": "secure-ai-gateway",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "c130259caa48b9ad54a3aa49c8ca6eb5b294a5fa",
+      "run_id": 36579254902,
+      "updated_at": "2026-09-29T14:00:10Z"
+    },
+    {
+      "repository": "autonomous-agent-orchestrator",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "855dab49d5070a8ee017794daffc03f400cc8c63",
+      "run_id": 36572090890,
+      "updated_at": "2026-09-29T13:01:55Z"
+    },
+    {
+      "repository": "ai-security-platform",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "4bb86bb33ef9d821370e9c27c2cdc907f2a0b733",
+      "run_id": 36579088900,
+      "updated_at": "2026-09-29T13:59:20Z"
+    },
+    {
+      "repository": "ai-model-registry",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "f551bd11b8eafce6c30919521980f34474c6fbc3",
+      "run_id": 36573597837,
+      "updated_at": "2026-09-29T13:14:33Z"
+    },
+    {
+      "repository": "ai-feature-store",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "961c83cc24dc6a7495f7102bfe3ae4bdcc4a3af1",
+      "run_id": 36571785275,
+      "updated_at": "2026-09-29T12:59:19Z"
+    },
+    {
+      "repository": "agentic-engineering-platform",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "8ec0737eea95346b54c9ec6ad26e6a4601bc55b8",
+      "run_id": 36578983767,
+      "updated_at": "2026-09-29T13:57:39Z"
+    },
+    {
+      "repository": "ai-evaluation-framework",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "697daa6b9e48e0656d5fde54b762ea3583c17660",
+      "run_id": 36578999128,
+      "updated_at": "2026-09-29T13:58:08Z"
+    },
+    {
+      "repository": "ai-data-governance-platform",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "75b4baa831f4a727d4a937174646a0d1fd4af732",
+      "run_id": 36579004665,
+      "updated_at": "2026-09-29T13:58:16Z"
+    },
+    {
+      "repository": "ai-workflow-engine",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "be576f8130c7333a9697d6ba1eaf6bf176261f74",
+      "run_id": 36579085461,
+      "updated_at": "2026-09-29T13:58:55Z"
+    },
+    {
+      "repository": "ai-api-platform",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "c5ba4bb41a7af81e881c2ab7d265a05e7cf8bfa7",
+      "run_id": 36579075726,
+      "updated_at": "2026-09-29T13:58:49Z"
+    },
+    {
+      "repository": "event-driven-ai-platform",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "fc7417b78f11813a061d7654fa26c9b74b278e4d",
+      "run_id": 36571194505,
+      "updated_at": "2026-09-29T12:54:21Z"
+    },
+    {
+      "repository": "AIPUSULA-Design-System-",
+      "status": "error",
+      "conclusion": "HTTP Error 404: Not Found",
+      "sha": null,
+      "run_id": null,
+      "updated_at": null
+    },
+    {
+      "repository": "ai-cost-optimization-platform",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "e221512b1fe2631f44b3ded335383e540f1f39f8",
+      "run_id": 36568952021,
+      "updated_at": "2026-09-29T12:36:49Z"
+    },
+    {
+      "repository": "cloud-native-ai-platform",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "d0bb29b71cc57749cc74a9bf75f0274c25e408bc",
+      "run_id": 36570973682,
+      "updated_at": "2026-09-29T12:52:15Z"
+    },
+    {
+      "repository": "enterprise-rag-platform",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "a9dfe6d5bd0ba44d083588cd9f17bd4ae4c4257e",
+      "run_id": 36568823306,
+      "updated_at": "2026-09-29T12:34:47Z"
+    },
+    {
+      "repository": "distributed-ai-inference-platform",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "5d2da6525e34ee9345a0b8bb399ad04a0cacdbb0",
+      "run_id": 36568813887,
+      "updated_at": "2026-09-29T12:36:13Z"
+    }
   ]
 }
