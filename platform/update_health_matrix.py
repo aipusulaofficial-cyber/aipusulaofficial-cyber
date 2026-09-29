@@ -21,7 +21,11 @@ rows = []
 for name in repos:
     try:
         runs = get(f"{name}/actions/runs?per_page=30")["workflow_runs"]
-        contract = [r for r in runs if r.get("name") == "Engineering Contract"]
+        contract = sorted(
+            (r for r in runs if r.get("name") == "Engineering Contract"),
+            key=lambda r: r.get("created_at") or "",
+            reverse=True,
+        )
         latest = contract[0] if contract else None
         rows.append({
             "repository": name,
@@ -32,7 +36,14 @@ for name in repos:
             "updated_at": latest.get("updated_at") if latest else None,
         })
     except Exception as exc:
-        rows.append({"repository": name, "status": "error", "conclusion": str(exc)[:120]})
+        rows.append({
+            "repository": name,
+            "status": "error",
+            "conclusion": str(exc)[:120],
+            "sha": None,
+            "run_id": None,
+            "updated_at": None,
+        })
 
 Path("platform/health-matrix.json").write_text(
     json.dumps({"contract_version":"1.0","repositories":rows}, indent=2) + "\n",
