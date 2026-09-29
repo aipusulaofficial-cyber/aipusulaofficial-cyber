@@ -38,3 +38,18 @@
 5. PR diff reviewed for compatibility, tests and architectural invariants before merge.
 
 **Scope:** the linked PRs are targeted audit fixes. Full principal-level certification additionally requires deeper architecture review, end-to-end deployment validation, and realistic load/failure testing.
+
+## September 29 evidence integrity remediation
+
+The first 22 draft PR heads (21 application repositories plus this portfolio) passed their configured checks before the later evidence-quality corrections. **Do not reuse that earlier GREEN snapshot** for any PR whose head subsequently changed.
+
+- Report application: [PR #2](https://github.com/aipusulaofficial-cyber/aipusula-report/pull/2) now has a separately scoped `server/index.ts` coverage gate; its verified sample was 15 tests, 93.93% line coverage, 100% function coverage and 80% branch coverage. The front-end is *not* covered by this metric.
+- Python repositories: 20 draft PRs now correct a shared JUnit parser error that read test counts from the top-level `testsuites` element and falsely reported zero tests. The workflows sum the actual `testsuite` attributes and reject zero-test evidence. Reverify each updated PR head before merge.
+- Security gateway: readiness now requires a deployed JWT verification secret. Its local rate limiter remains *process-local* and is not a shared production quota service.
+
+## Known architectural follow-ups
+
+- [Gateway multi-replica quotas and trusted client identity](https://github.com/aipusulaofficial-cyber/secure-ai-gateway/issues/11): requires shared atomic storage, identity-bound keys, multi-instance failure and concurrency testing. The currently deployed design must not claim consistent fleet-wide rate limiting.
+- [Report frontend coverage and browser-level behavior](https://github.com/aipusulaofficial-cyber/aipusula-report/issues/3): a server-only coverage percentage cannot stand in for the whole app.
+- [Report reproducible coverage dependencies](https://github.com/aipusulaofficial-cyber/aipusula-report/issues/4): the coverage job still installs its provider dynamically and requires a regenerated, committed pnpm lockfile.
+- The private design-system's independent contract workflow validates tokens/components; its main CI file was not modified because the write attempt was blocked.
