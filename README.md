@@ -113,3 +113,8 @@ The goal is not simply to make software run. The goal is to make important behav
 ---
 
 **AIPusula** · Principal AI & Cloud Engineering · AI Platforms · MLOps/LLMOps · Agentic AI · Cloud Architecture · Cybersecurity
+
+
+## Active engineering audit
+
+[Cross-repository audit and pull-request review queue](docs/PORTFOLIO_AUDIT_2026-09-29.md). Targeted fixes are under review; GREEN status must be verified from the latest GitHub Actions runs rather than inferred from documentation.
