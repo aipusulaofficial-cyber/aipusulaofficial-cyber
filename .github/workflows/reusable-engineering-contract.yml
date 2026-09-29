@@ -119,8 +119,9 @@ jobs:
             npm ci
             npm audit --audit-level=high
           else
-            npm install
-            npm audit --audit-level=high
+            echo "No supported lockfile found. Refusing non-deterministic npm install."
+            echo "Commit package-lock.json, pnpm-lock.yaml, or another supported lockfile."
+            exit 1
           fi
 
       - name: Node tests
