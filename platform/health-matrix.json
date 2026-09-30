@@ -1111,12 +1111,6 @@
       "updated_at": "2026-09-29T14:20:24Z",
       "workflow_count": 8,
       "workflows": {
-        "Supply Chain Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36581829698,
-          "updated_at": "2026-09-29T14:19:56Z"
-        },
         "production-tests": {
           "status": "completed",
           "conclusion": "success",
@@ -1158,6 +1152,12 @@
           "conclusion": "success",
           "run_id": 36581829543,
           "updated_at": "2026-09-29T14:20:24Z"
+        },
+        "Supply Chain Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 36581829698,
+          "updated_at": "2026-09-29T14:19:56Z"
         }
       }
     },
@@ -1175,24 +1175,6 @@
           "conclusion": "success",
           "run_id": 36591588998,
           "updated_at": "2026-09-29T15:37:31Z"
-        },
-        "CI": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36581819517,
-          "updated_at": "2026-09-29T14:19:49Z"
-        },
-        "production-tests": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36581819365,
-          "updated_at": "2026-09-29T14:19:57Z"
-        },
-        "security-sbom": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36581819285,
-          "updated_at": "2026-09-29T14:19:55Z"
         },
         "Supply Chain Evidence": {
           "status": "completed",
@@ -1223,6 +1205,24 @@
           "conclusion": "success",
           "run_id": 36581820423,
           "updated_at": "2026-09-29T14:20:25Z"
+        },
+        "CI": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 36581819517,
+          "updated_at": "2026-09-29T14:19:49Z"
+        },
+        "production-tests": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 36581819365,
+          "updated_at": "2026-09-29T14:19:57Z"
+        },
+        "security-sbom": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 36581819285,
+          "updated_at": "2026-09-29T14:19:55Z"
         }
       }
     }
