@@ -985,6 +985,16 @@
       "workflows": {}
     },
     {
+      "repository": "aipusula-enterprise-private",
+      "status": "unavailable",
+      "conclusion": "repository access unavailable",
+      "sha": null,
+      "run_id": null,
+      "updated_at": null,
+      "workflow_count": 0,
+      "workflows": {}
+    },
+    {
       "repository": "ai-cost-optimization-platform",
       "status": "completed",
       "conclusion": "success",
