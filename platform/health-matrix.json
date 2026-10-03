@@ -58,82 +58,82 @@
       "repository": "mlops-model-platform",
       "status": "completed",
       "conclusion": "success",
-      "sha": "15b622da989e4daf4dcf94c224c1658c8cb682e2",
-      "run_id": 36949254893,
-      "updated_at": "2026-10-02T01:06:46Z",
+      "sha": "7ef986f69de12c7017376e5b6c4241a85bde07b0",
+      "run_id": 37158694379,
+      "updated_at": "2026-10-03T22:31:24Z",
       "workflow_count": 12,
       "workflows": {
-        "github_actions in /. - Update #1604141179": {
+        "github_actions in / for actions/checkout - Update #1607115216": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36949254536,
-          "updated_at": "2026-10-02T01:06:27Z"
+          "run_id": 37158694379,
+          "updated_at": "2026-10-03T22:31:24Z"
         },
-        "pip in /. - Update #1604141206": {
+        "github_actions in / for actions/setup-python - Update #1607115225": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36949254893,
-          "updated_at": "2026-10-02T01:06:46Z"
-        },
-        "Domain Executable Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723388977,
-          "updated_at": "2026-09-30T13:41:49Z"
-        },
-        "Supply Chain Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723388979,
-          "updated_at": "2026-09-30T13:41:00Z"
-        },
-        "production-tests": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723388883,
-          "updated_at": "2026-09-30T13:41:02Z"
-        },
-        "Engineering Contract": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723390317,
-          "updated_at": "2026-09-30T13:41:40Z"
-        },
-        "CI": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723389278,
-          "updated_at": "2026-09-30T13:41:24Z"
-        },
-        "Executable Test Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723388970,
-          "updated_at": "2026-09-30T13:41:46Z"
-        },
-        "security-and-sbom": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723388786,
-          "updated_at": "2026-09-30T13:41:44Z"
+          "run_id": 37158694311,
+          "updated_at": "2026-10-03T22:31:22Z"
         },
         "Benchmark And Reliability Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723388835,
-          "updated_at": "2026-09-30T13:40:58Z"
+          "run_id": 37158614095,
+          "updated_at": "2026-10-03T22:29:35Z"
+        },
+        "Supply Chain Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37158614087,
+          "updated_at": "2026-10-03T22:29:36Z"
+        },
+        "CI": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37158614099,
+          "updated_at": "2026-10-03T22:29:38Z"
+        },
+        "production-tests": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37158614064,
+          "updated_at": "2026-10-03T22:29:40Z"
         },
         "Platform Gate": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723388772,
-          "updated_at": "2026-09-30T13:41:11Z"
+          "run_id": 37158614105,
+          "updated_at": "2026-10-03T22:29:40Z"
+        },
+        "Domain Executable Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37158614156,
+          "updated_at": "2026-10-03T22:29:45Z"
+        },
+        "security-and-sbom": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37158614080,
+          "updated_at": "2026-10-03T22:29:48Z"
         },
         "Portfolio Coverage Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723388763,
-          "updated_at": "2026-09-30T13:41:25Z"
+          "run_id": 37158614134,
+          "updated_at": "2026-10-03T22:29:53Z"
+        },
+        "Executable Test Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37158614110,
+          "updated_at": "2026-10-03T22:30:02Z"
+        },
+        "Engineering Contract": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37158614431,
+          "updated_at": "2026-10-03T22:30:04Z"
         }
       }
     },
@@ -188,58 +188,52 @@
       "repository": "ai-reliability-platform",
       "status": "completed",
       "conclusion": "success",
-      "sha": "29c01b01a8a84f2316b63b23377b1269d46556b3",
-      "run_id": 36990552637,
-      "updated_at": "2026-10-02T09:35:50Z",
-      "workflow_count": 8,
+      "sha": "2d41f15c5f577ca5ce649c162bf12b6178aaf9ed",
+      "run_id": 37159181732,
+      "updated_at": "2026-10-03T22:40:22Z",
+      "workflow_count": 7,
       "workflows": {
-        "github_actions in /. - Update #1604903503": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36990552637,
-          "updated_at": "2026-10-02T09:35:50Z"
-        },
-        "dependency-audit": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723661732,
-          "updated_at": "2026-09-30T13:44:08Z"
-        },
         "Engineering Contract": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723662374,
-          "updated_at": "2026-09-30T13:44:11Z"
-        },
-        "Domain Executable Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723661544,
-          "updated_at": "2026-09-30T13:43:40Z"
-        },
-        "Portfolio Coverage Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723661266,
-          "updated_at": "2026-09-30T13:44:06Z"
-        },
-        "Executable Test Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723661364,
-          "updated_at": "2026-09-30T13:44:24Z"
-        },
-        "ci": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723661255,
-          "updated_at": "2026-09-30T13:44:45Z"
+          "run_id": 37159182192,
+          "updated_at": "2026-10-03T22:40:18Z"
         },
         "production-tests": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723661454,
-          "updated_at": "2026-09-30T13:44:34Z"
+          "run_id": 37159181755,
+          "updated_at": "2026-10-03T22:40:09Z"
+        },
+        "dependency-audit": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159181706,
+          "updated_at": "2026-10-03T22:40:06Z"
+        },
+        "Portfolio Coverage Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159181745,
+          "updated_at": "2026-10-03T22:40:02Z"
+        },
+        "Domain Executable Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159181741,
+          "updated_at": "2026-10-03T22:40:03Z"
+        },
+        "Executable Test Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159181711,
+          "updated_at": "2026-10-03T22:40:21Z"
+        },
+        "ci": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159181732,
+          "updated_at": "2026-10-03T22:40:22Z"
         }
       }
     },
@@ -247,58 +241,52 @@
       "repository": "real-time-ai-pipeline",
       "status": "completed",
       "conclusion": "success",
-      "sha": "53ba177fbcf4b266793ab35712cdaa324a0cd3dd",
-      "run_id": 36977535224,
-      "updated_at": "2026-10-02T07:15:26Z",
-      "workflow_count": 8,
+      "sha": "6376fe77d530c26999df19d3a3ac112eaed9b18f",
+      "run_id": 37159146034,
+      "updated_at": "2026-10-03T22:39:36Z",
+      "workflow_count": 7,
       "workflows": {
-        "github_actions in /. - Update #1604698201": {
+        "production-tests": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36977535224,
-          "updated_at": "2026-10-02T07:15:26Z"
-        },
-        "Engineering Contract": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723569826,
-          "updated_at": "2026-09-30T13:42:57Z"
-        },
-        "security-sbom": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723568717,
-          "updated_at": "2026-09-30T13:44:02Z"
-        },
-        "Portfolio Coverage Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723568770,
-          "updated_at": "2026-09-30T13:43:24Z"
+          "run_id": 37159145934,
+          "updated_at": "2026-10-03T22:39:13Z"
         },
         "ci": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723568854,
-          "updated_at": "2026-09-30T13:43:04Z"
+          "run_id": 37159146034,
+          "updated_at": "2026-10-03T22:39:36Z"
+        },
+        "Engineering Contract": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159146222,
+          "updated_at": "2026-10-03T22:39:28Z"
+        },
+        "security-sbom": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159145917,
+          "updated_at": "2026-10-03T22:39:14Z"
         },
         "Domain Executable Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723568839,
-          "updated_at": "2026-09-30T13:43:25Z"
+          "run_id": 37159145924,
+          "updated_at": "2026-10-03T22:39:12Z"
+        },
+        "Portfolio Coverage Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159145910,
+          "updated_at": "2026-10-03T22:39:31Z"
         },
         "Executable Test Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723568729,
-          "updated_at": "2026-09-30T13:42:50Z"
-        },
-        "production-tests": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723568846,
-          "updated_at": "2026-09-30T13:42:42Z"
+          "run_id": 37159145920,
+          "updated_at": "2026-10-03T22:39:26Z"
         }
       }
     },
@@ -306,64 +294,52 @@
       "repository": "ai-observability-platform",
       "status": "completed",
       "conclusion": "success",
-      "sha": "273b447629c1dd04e3c17a622b57addb6dd946b0",
-      "run_id": 37014936320,
-      "updated_at": "2026-10-02T13:45:12Z",
-      "workflow_count": 9,
+      "sha": "a90b57b60ea6b6069438fc994cf890e426a9cad2",
+      "run_id": 37161777608,
+      "updated_at": "2026-10-03T23:27:08Z",
+      "workflow_count": 7,
       "workflows": {
-        "github_actions in /. - Update #1605253152": {
+        "Engineering Contract": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 37014936016,
-          "updated_at": "2026-10-02T13:44:40Z"
-        },
-        "pip in /. - Update #1605253141": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 37014936320,
-          "updated_at": "2026-10-02T13:45:12Z"
-        },
-        "Portfolio Coverage Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723556301,
-          "updated_at": "2026-09-30T13:42:41Z"
-        },
-        "Executable Test Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723556356,
-          "updated_at": "2026-09-30T13:42:42Z"
+          "run_id": 37161777608,
+          "updated_at": "2026-10-03T23:27:08Z"
         },
         "production-tests": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723556372,
-          "updated_at": "2026-09-30T13:42:39Z"
+          "run_id": 37161777227,
+          "updated_at": "2026-10-03T23:26:52Z"
+        },
+        "Portfolio Coverage Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37161777132,
+          "updated_at": "2026-10-03T23:26:48Z"
+        },
+        "Executable Test Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37161777153,
+          "updated_at": "2026-10-03T23:26:50Z"
         },
         "Domain Executable Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723556436,
-          "updated_at": "2026-09-30T13:43:20Z"
+          "run_id": 37161777185,
+          "updated_at": "2026-10-03T23:26:48Z"
         },
         "security-and-sbom": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723556646,
-          "updated_at": "2026-09-30T13:42:40Z"
-        },
-        "Engineering Contract": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723557812,
-          "updated_at": "2026-09-30T13:42:52Z"
+          "run_id": 37161777131,
+          "updated_at": "2026-10-03T23:26:59Z"
         },
         "ci": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723556330,
-          "updated_at": "2026-09-30T13:43:43Z"
+          "run_id": 37161777164,
+          "updated_at": "2026-10-03T23:27:07Z"
         }
       }
     },
@@ -371,76 +347,106 @@
       "repository": "secure-ai-gateway",
       "status": "completed",
       "conclusion": "success",
-      "sha": "7c7bdaeb14a461ffdbf36d6a63107cf7093db652",
-      "run_id": 37051615879,
-      "updated_at": "2026-10-02T19:06:19Z",
-      "workflow_count": 11,
+      "sha": "01f94231369a4073373186aa691b0a0fc66ed08c",
+      "run_id": 37159224006,
+      "updated_at": "2026-10-03T22:41:35Z",
+      "workflow_count": 16,
       "workflows": {
-        "github_actions in /. - Update #1605690603": {
+        "pip in / for hypothesis - Update #1607121645": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 37051622190,
-          "updated_at": "2026-10-02T19:04:43Z"
+          "run_id": 37159224006,
+          "updated_at": "2026-10-03T22:41:35Z"
         },
-        "pip in /. - Update #1605690444": {
+        "pip in / for opentelemetry-exporter-otlp - Update #1607121625": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 37051615879,
-          "updated_at": "2026-10-02T19:06:19Z"
+          "run_id": 37159221413,
+          "updated_at": "2026-10-03T22:41:06Z"
         },
-        "Platform Gate": {
+        "pip in / for opentelemetry-sdk - Update #1607121615": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723393708,
-          "updated_at": "2026-09-30T13:41:12Z"
+          "run_id": 37159220224,
+          "updated_at": "2026-10-03T22:41:02Z"
         },
-        "Supply Chain Evidence": {
+        "pip in / for pydantic - Update #1607121612": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723394182,
-          "updated_at": "2026-09-30T13:41:17Z"
+          "run_id": 37159220159,
+          "updated_at": "2026-10-03T22:41:07Z"
         },
-        "production-tests": {
+        "pip in / for pytest - Update #1607121586": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723393949,
-          "updated_at": "2026-09-30T13:41:17Z"
+          "run_id": 37159216700,
+          "updated_at": "2026-10-03T22:41:02Z"
         },
-        "Benchmark And Reliability Evidence": {
+        "github_actions in / for actions/checkout - Update #1607121572": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723393744,
-          "updated_at": "2026-09-30T13:41:09Z"
+          "run_id": 37159216420,
+          "updated_at": "2026-10-03T22:40:44Z"
         },
-        "Domain Executable Evidence": {
+        "github_actions in / for actions/setup-python - Update #1607121571": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723393643,
-          "updated_at": "2026-09-30T13:41:42Z"
+          "run_id": 37159216039,
+          "updated_at": "2026-10-03T22:40:45Z"
         },
         "Engineering Contract": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723394888,
-          "updated_at": "2026-09-30T13:41:42Z"
-        },
-        "Portfolio Coverage Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723394095,
-          "updated_at": "2026-09-30T13:41:21Z"
-        },
-        "security-and-sbom": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723393734,
-          "updated_at": "2026-09-30T13:41:23Z"
+          "run_id": 37159142212,
+          "updated_at": "2026-10-03T22:39:22Z"
         },
         "CI": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723393822,
-          "updated_at": "2026-09-30T13:41:38Z"
+          "run_id": 37159141838,
+          "updated_at": "2026-10-03T22:38:59Z"
+        },
+        "security-and-sbom": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159141816,
+          "updated_at": "2026-10-03T22:39:15Z"
+        },
+        "production-tests": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159141800,
+          "updated_at": "2026-10-03T22:39:17Z"
+        },
+        "Portfolio Coverage Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159141772,
+          "updated_at": "2026-10-03T22:39:18Z"
+        },
+        "Benchmark And Reliability Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159141803,
+          "updated_at": "2026-10-03T22:39:06Z"
+        },
+        "Domain Executable Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159141761,
+          "updated_at": "2026-10-03T22:39:07Z"
+        },
+        "Platform Gate": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159141751,
+          "updated_at": "2026-10-03T22:39:03Z"
+        },
+        "Supply Chain Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159141771,
+          "updated_at": "2026-10-03T22:38:59Z"
         }
       }
     },
@@ -507,64 +513,52 @@
       "repository": "ai-security-platform",
       "status": "completed",
       "conclusion": "success",
-      "sha": "9abac28705eec74d6eb889b8a27b516a0fa3ce31",
-      "run_id": 37000837056,
-      "updated_at": "2026-10-02T11:25:47Z",
-      "workflow_count": 9,
+      "sha": "1d87f0c154bff607b9d528beae44af18e5f70a19",
+      "run_id": 37159166890,
+      "updated_at": "2026-10-03T22:40:08Z",
+      "workflow_count": 7,
       "workflows": {
-        "github_actions in /. - Update #1605059619": {
+        "Domain Executable Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 37000837053,
-          "updated_at": "2026-10-02T11:25:33Z"
-        },
-        "pip in /. - Update #1605059609": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 37000837056,
-          "updated_at": "2026-10-02T11:25:47Z"
+          "run_id": 37159166824,
+          "updated_at": "2026-10-03T22:39:40Z"
         },
         "dependency-audit": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723637970,
-          "updated_at": "2026-09-30T13:44:00Z"
-        },
-        "Engineering Contract": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723639363,
-          "updated_at": "2026-09-30T13:43:40Z"
-        },
-        "production-tests": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723637709,
-          "updated_at": "2026-09-30T13:43:53Z"
-        },
-        "ci": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723637720,
-          "updated_at": "2026-09-30T13:44:23Z"
+          "run_id": 37159166807,
+          "updated_at": "2026-10-03T22:39:41Z"
         },
         "Executable Test Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723637687,
-          "updated_at": "2026-09-30T13:44:18Z"
+          "run_id": 37159166921,
+          "updated_at": "2026-10-03T22:39:54Z"
         },
-        "Domain Executable Evidence": {
+        "production-tests": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723637710,
-          "updated_at": "2026-09-30T13:44:06Z"
+          "run_id": 37159166840,
+          "updated_at": "2026-10-03T22:39:43Z"
         },
         "Portfolio Coverage Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723637685,
-          "updated_at": "2026-09-30T13:44:28Z"
+          "run_id": 37159166767,
+          "updated_at": "2026-10-03T22:39:46Z"
+        },
+        "ci": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159166890,
+          "updated_at": "2026-10-03T22:40:08Z"
+        },
+        "Engineering Contract": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159167357,
+          "updated_at": "2026-10-03T22:40:04Z"
         }
       }
     },
@@ -572,64 +566,52 @@
       "repository": "ai-model-registry",
       "status": "completed",
       "conclusion": "success",
-      "sha": "a23351f05978afff024121991cf4e4f694af1a1a",
-      "run_id": 36945818753,
-      "updated_at": "2026-10-02T00:25:31Z",
-      "workflow_count": 9,
+      "sha": "8d6a5e49693014574767eeb594bcfee267264062",
+      "run_id": 37159171514,
+      "updated_at": "2026-10-03T22:40:17Z",
+      "workflow_count": 7,
       "workflows": {
-        "github_actions in /. - Update #1604082143": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36945818685,
-          "updated_at": "2026-10-02T00:25:21Z"
-        },
-        "pip in /. - Update #1604082116": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36945818753,
-          "updated_at": "2026-10-02T00:25:31Z"
-        },
-        "Engineering Contract": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723647506,
-          "updated_at": "2026-09-30T13:43:26Z"
-        },
-        "production-tests": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723646100,
-          "updated_at": "2026-09-30T13:43:34Z"
-        },
         "Domain Executable Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723646244,
-          "updated_at": "2026-09-30T13:43:59Z"
+          "run_id": 37159171498,
+          "updated_at": "2026-10-03T22:39:47Z"
         },
         "dependency-audit": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723646245,
-          "updated_at": "2026-09-30T13:44:33Z"
-        },
-        "Executable Test Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723646140,
-          "updated_at": "2026-09-30T13:44:32Z"
+          "run_id": 37159171511,
+          "updated_at": "2026-10-03T22:40:03Z"
         },
         "Portfolio Coverage Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723646171,
-          "updated_at": "2026-09-30T13:44:46Z"
+          "run_id": 37159171524,
+          "updated_at": "2026-10-03T22:40:09Z"
+        },
+        "Engineering Contract": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159171835,
+          "updated_at": "2026-10-03T22:40:04Z"
+        },
+        "Executable Test Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159171514,
+          "updated_at": "2026-10-03T22:40:17Z"
+        },
+        "production-tests": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159171532,
+          "updated_at": "2026-10-03T22:40:10Z"
         },
         "ci": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723646205,
-          "updated_at": "2026-09-30T13:44:54Z"
+          "run_id": 37159171562,
+          "updated_at": "2026-10-03T22:40:14Z"
         }
       }
     },
@@ -702,52 +684,52 @@
       "repository": "agentic-engineering-platform",
       "status": "completed",
       "conclusion": "success",
-      "sha": "96e70c3ac6287c02d291f4925d472e302ab2d043",
-      "run_id": 36723547444,
-      "updated_at": "2026-09-30T13:42:41Z",
+      "sha": "e244e97b6dff314167db68d27b14fae901ed5452",
+      "run_id": 37158600222,
+      "updated_at": "2026-10-03T22:29:37Z",
       "workflow_count": 7,
       "workflows": {
         "Engineering Contract": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723548602,
-          "updated_at": "2026-09-30T13:42:25Z"
-        },
-        "Benchmark And Reliability Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723547640,
-          "updated_at": "2026-09-30T13:42:16Z"
-        },
-        "Portfolio Coverage Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723547435,
-          "updated_at": "2026-09-30T13:42:18Z"
-        },
-        "Platform Gate": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723547417,
-          "updated_at": "2026-09-30T13:42:20Z"
-        },
-        "security-sbom": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723547444,
-          "updated_at": "2026-09-30T13:42:41Z"
+          "run_id": 37158600805,
+          "updated_at": "2026-10-03T22:29:23Z"
         },
         "Supply Chain Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723547395,
-          "updated_at": "2026-09-30T13:42:13Z"
+          "run_id": 37158600338,
+          "updated_at": "2026-10-03T22:29:17Z"
+        },
+        "Portfolio Coverage Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37158600306,
+          "updated_at": "2026-10-03T22:29:21Z"
         },
         "CI": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723547594,
-          "updated_at": "2026-09-30T13:42:13Z"
+          "run_id": 37158600332,
+          "updated_at": "2026-10-03T22:29:21Z"
+        },
+        "Benchmark And Reliability Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37158600340,
+          "updated_at": "2026-10-03T22:29:21Z"
+        },
+        "security-sbom": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37158600222,
+          "updated_at": "2026-10-03T22:29:37Z"
+        },
+        "Platform Gate": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37158600345,
+          "updated_at": "2026-10-03T22:29:25Z"
         }
       }
     },
@@ -873,64 +855,52 @@
       "repository": "ai-workflow-engine",
       "status": "completed",
       "conclusion": "success",
-      "sha": "7217f280e4e6f46ffc6b63c23fbc14dd6c0d4ccc",
-      "run_id": 36968032894,
-      "updated_at": "2026-10-02T05:16:31Z",
-      "workflow_count": 9,
+      "sha": "ef539bed31bae23337c2a3830638101a17c5a878",
+      "run_id": 37159161510,
+      "updated_at": "2026-10-03T22:39:45Z",
+      "workflow_count": 7,
       "workflows": {
-        "pip in /. - Update #1604468569": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36968032894,
-          "updated_at": "2026-10-02T05:16:31Z"
-        },
-        "github_actions in /. - Update #1604468536": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36968032469,
-          "updated_at": "2026-10-02T05:15:06Z"
-        },
-        "Executable Test Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723600922,
-          "updated_at": "2026-09-30T13:43:07Z"
-        },
         "Engineering Contract": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723602121,
-          "updated_at": "2026-09-30T13:43:23Z"
-        },
-        "Domain Executable Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723600844,
-          "updated_at": "2026-09-30T13:43:59Z"
-        },
-        "security-sbom": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723601073,
-          "updated_at": "2026-09-30T13:44:07Z"
-        },
-        "production-tests": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723600886,
-          "updated_at": "2026-09-30T13:43:38Z"
+          "run_id": 37159161895,
+          "updated_at": "2026-10-03T22:39:42Z"
         },
         "CI": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723600755,
-          "updated_at": "2026-09-30T13:44:14Z"
+          "run_id": 37159161478,
+          "updated_at": "2026-10-03T22:39:22Z"
+        },
+        "production-tests": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159161590,
+          "updated_at": "2026-10-03T22:39:34Z"
+        },
+        "security-sbom": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159161521,
+          "updated_at": "2026-10-03T22:39:43Z"
         },
         "Portfolio Coverage Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723600882,
-          "updated_at": "2026-09-30T13:44:26Z"
+          "run_id": 37159161510,
+          "updated_at": "2026-10-03T22:39:45Z"
+        },
+        "Domain Executable Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159161472,
+          "updated_at": "2026-10-03T22:39:39Z"
+        },
+        "Executable Test Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159161471,
+          "updated_at": "2026-10-03T22:39:38Z"
         }
       }
     },
@@ -997,64 +967,52 @@
       "repository": "event-driven-ai-platform",
       "status": "completed",
       "conclusion": "success",
-      "sha": "63e76507bd2177b87ec3c3bbc895169a7a23da81",
-      "run_id": 36956193671,
-      "updated_at": "2026-10-02T02:35:01Z",
-      "workflow_count": 9,
+      "sha": "5ad3f8f87810965c991c6d37cc507564a4f58f34",
+      "run_id": 37161781922,
+      "updated_at": "2026-10-03T23:27:20Z",
+      "workflow_count": 7,
       "workflows": {
-        "pip in /. - Update #1604255464": {
+        "production-tests": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36956193671,
-          "updated_at": "2026-10-02T02:35:01Z"
-        },
-        "github_actions in /. - Update #1604255480": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36956193821,
-          "updated_at": "2026-10-02T02:34:37Z"
+          "run_id": 37161781905,
+          "updated_at": "2026-10-03T23:26:50Z"
         },
         "Engineering Contract": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723562876,
-          "updated_at": "2026-09-30T13:42:52Z"
-        },
-        "Executable Test Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723561294,
-          "updated_at": "2026-09-30T13:42:35Z"
-        },
-        "security-and-sbom": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723561059,
-          "updated_at": "2026-09-30T13:42:39Z"
-        },
-        "Domain Executable Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723561260,
-          "updated_at": "2026-09-30T13:42:45Z"
-        },
-        "ci": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723561276,
-          "updated_at": "2026-09-30T13:43:30Z"
-        },
-        "production-tests": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723561204,
-          "updated_at": "2026-09-30T13:43:24Z"
+          "run_id": 37161782315,
+          "updated_at": "2026-10-03T23:27:03Z"
         },
         "Portfolio Coverage Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723561118,
-          "updated_at": "2026-09-30T13:44:08Z"
+          "run_id": 37161781951,
+          "updated_at": "2026-10-03T23:26:58Z"
+        },
+        "Domain Executable Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37161781939,
+          "updated_at": "2026-10-03T23:26:58Z"
+        },
+        "security-and-sbom": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37161781907,
+          "updated_at": "2026-10-03T23:26:58Z"
+        },
+        "Executable Test Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37161781948,
+          "updated_at": "2026-10-03T23:26:54Z"
+        },
+        "ci": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37161781922,
+          "updated_at": "2026-10-03T23:27:20Z"
         }
       }
     },
@@ -1082,58 +1040,52 @@
       "repository": "ai-cost-optimization-platform",
       "status": "completed",
       "conclusion": "success",
-      "sha": "304ec06e521b07f833eed85ba0506ade79e502c5",
-      "run_id": 36997047872,
-      "updated_at": "2026-10-02T10:44:21Z",
-      "workflow_count": 8,
+      "sha": "41b19893a19491d614c03433cef453f773553b2a",
+      "run_id": 37159176944,
+      "updated_at": "2026-10-03T22:40:27Z",
+      "workflow_count": 7,
       "workflows": {
-        "github_actions in /. - Update #1605002861": {
+        "Domain Executable Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36997047872,
-          "updated_at": "2026-10-02T10:44:21Z"
-        },
-        "dependency-audit": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723653745,
-          "updated_at": "2026-09-30T13:44:03Z"
+          "run_id": 37159176418,
+          "updated_at": "2026-10-03T22:39:57Z"
         },
         "Engineering Contract": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723654771,
-          "updated_at": "2026-09-30T13:43:41Z"
+          "run_id": 37159176944,
+          "updated_at": "2026-10-03T22:40:27Z"
         },
         "Portfolio Coverage Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723653711,
-          "updated_at": "2026-09-30T13:43:32Z"
-        },
-        "Executable Test Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723653735,
-          "updated_at": "2026-09-30T13:44:21Z"
+          "run_id": 37159176409,
+          "updated_at": "2026-10-03T22:40:03Z"
         },
         "production-tests": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723653682,
-          "updated_at": "2026-09-30T13:44:09Z"
+          "run_id": 37159176455,
+          "updated_at": "2026-10-03T22:40:02Z"
         },
-        "Domain Executable Evidence": {
+        "dependency-audit": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723653772,
-          "updated_at": "2026-09-30T13:44:30Z"
+          "run_id": 37159176395,
+          "updated_at": "2026-10-03T22:40:09Z"
+        },
+        "Executable Test Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159176448,
+          "updated_at": "2026-10-03T22:40:02Z"
         },
         "ci": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723653761,
-          "updated_at": "2026-09-30T13:44:49Z"
+          "run_id": 37159176532,
+          "updated_at": "2026-10-03T22:40:17Z"
         }
       }
     },
@@ -1141,58 +1093,52 @@
       "repository": "cloud-native-ai-platform",
       "status": "completed",
       "conclusion": "success",
-      "sha": "302c1f9231fad1b101a1f2bd197d51f751106515",
-      "run_id": 37020758611,
-      "updated_at": "2026-10-02T14:34:54Z",
-      "workflow_count": 8,
+      "sha": "e6d5cd953f9b677cc59f796fdebebda61a0ea4f8",
+      "run_id": 37159152618,
+      "updated_at": "2026-10-03T22:39:47Z",
+      "workflow_count": 7,
       "workflows": {
-        "github_actions in /. - Update #1605325738": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 37020758611,
-          "updated_at": "2026-10-02T14:34:54Z"
-        },
         "Engineering Contract": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723595578,
-          "updated_at": "2026-09-30T13:43:16Z"
+          "run_id": 37159153028,
+          "updated_at": "2026-10-03T22:39:39Z"
         },
         "ci": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723592970,
-          "updated_at": "2026-09-30T13:44:14Z"
-        },
-        "Executable Test Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723592814,
-          "updated_at": "2026-09-30T13:43:02Z"
-        },
-        "security-sbom": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723592966,
-          "updated_at": "2026-09-30T13:43:07Z"
-        },
-        "Portfolio Coverage Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723592835,
-          "updated_at": "2026-09-30T13:42:57Z"
+          "run_id": 37159152618,
+          "updated_at": "2026-10-03T22:39:47Z"
         },
         "Domain Executable Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723592801,
-          "updated_at": "2026-09-30T13:43:49Z"
+          "run_id": 37159152645,
+          "updated_at": "2026-10-03T22:39:20Z"
         },
         "production-tests": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723593128,
-          "updated_at": "2026-09-30T13:44:07Z"
+          "run_id": 37159152620,
+          "updated_at": "2026-10-03T22:39:18Z"
+        },
+        "Portfolio Coverage Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159152663,
+          "updated_at": "2026-10-03T22:39:26Z"
+        },
+        "security-sbom": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159152630,
+          "updated_at": "2026-10-03T22:39:24Z"
+        },
+        "Executable Test Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37159152649,
+          "updated_at": "2026-10-03T22:39:31Z"
         }
       }
     },
@@ -1200,70 +1146,58 @@
       "repository": "enterprise-rag-platform",
       "status": "completed",
       "conclusion": "success",
-      "sha": "8838043ec9c9cfef74b3bc9ac950565f350a0557",
-      "run_id": 37021908156,
-      "updated_at": "2026-10-02T14:45:08Z",
-      "workflow_count": 10,
+      "sha": "1e1204b8815030cba29210232ffe1a1f867a181c",
+      "run_id": 37158499971,
+      "updated_at": "2026-10-03T22:27:56Z",
+      "workflow_count": 8,
       "workflows": {
-        "pip in /. - Update #1605339780": {
+        "Engineering Contract": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 37021908156,
-          "updated_at": "2026-10-02T14:45:08Z"
-        },
-        "github_actions in /. - Update #1605339792": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 37021908163,
-          "updated_at": "2026-10-02T14:44:44Z"
+          "run_id": 37158499971,
+          "updated_at": "2026-10-03T22:27:56Z"
         },
         "CI": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723383488,
-          "updated_at": "2026-09-30T13:40:58Z"
-        },
-        "production-tests": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723383361,
-          "updated_at": "2026-09-30T13:40:58Z"
-        },
-        "security-and-sbom": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723383262,
-          "updated_at": "2026-09-30T13:41:07Z"
-        },
-        "Portfolio Coverage Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723383350,
-          "updated_at": "2026-09-30T13:41:08Z"
-        },
-        "Platform Gate": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723383147,
-          "updated_at": "2026-09-30T13:40:59Z"
-        },
-        "Supply Chain Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723383202,
-          "updated_at": "2026-09-30T13:40:55Z"
+          "run_id": 37158499475,
+          "updated_at": "2026-10-03T22:27:29Z"
         },
         "Benchmark And Reliability Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723383222,
-          "updated_at": "2026-09-30T13:40:55Z"
+          "run_id": 37158499500,
+          "updated_at": "2026-10-03T22:27:29Z"
         },
-        "Engineering Contract": {
+        "Supply Chain Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723384662,
-          "updated_at": "2026-09-30T13:41:24Z"
+          "run_id": 37158499491,
+          "updated_at": "2026-10-03T22:27:31Z"
+        },
+        "Platform Gate": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37158499503,
+          "updated_at": "2026-10-03T22:27:37Z"
+        },
+        "production-tests": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37158499497,
+          "updated_at": "2026-10-03T22:27:37Z"
+        },
+        "Portfolio Coverage Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37158499532,
+          "updated_at": "2026-10-03T22:27:49Z"
+        },
+        "security-and-sbom": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37158499485,
+          "updated_at": "2026-10-03T22:27:49Z"
         }
       }
     },
@@ -1271,76 +1205,64 @@
       "repository": "distributed-ai-inference-platform",
       "status": "completed",
       "conclusion": "success",
-      "sha": "4b5e785080fd12ece4ab345dd0e20bf1d1036e73",
-      "run_id": 37069450418,
-      "updated_at": "2026-10-02T21:54:14Z",
-      "workflow_count": 11,
+      "sha": "f0e7c7db17168eb889ab66a28ae3f89c879f7cdf",
+      "run_id": 37157466284,
+      "updated_at": "2026-10-03T22:10:02Z",
+      "workflow_count": 9,
       "workflows": {
-        "pip in /. - Update #1605904730": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 37069450418,
-          "updated_at": "2026-10-02T21:54:14Z"
-        },
-        "github_actions in /. - Update #1605904725": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 37069450011,
-          "updated_at": "2026-10-02T21:54:03Z"
-        },
         "Engineering Contract": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723379081,
-          "updated_at": "2026-09-30T13:41:18Z"
-        },
-        "Supply Chain Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723377659,
-          "updated_at": "2026-09-30T13:40:56Z"
-        },
-        "CI": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723378252,
-          "updated_at": "2026-09-30T13:40:54Z"
-        },
-        "Benchmark And Reliability Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723377735,
-          "updated_at": "2026-09-30T13:40:55Z"
+          "run_id": 37157466284,
+          "updated_at": "2026-10-03T22:10:02Z"
         },
         "Platform Gate": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723377927,
-          "updated_at": "2026-09-30T13:40:58Z"
+          "run_id": 37157465949,
+          "updated_at": "2026-10-03T22:09:33Z"
         },
-        "security-sbom": {
+        "Benchmark And Reliability Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723377761,
-          "updated_at": "2026-09-30T13:41:13Z"
+          "run_id": 37157465902,
+          "updated_at": "2026-10-03T22:09:29Z"
         },
-        "Portfolio Coverage Evidence": {
+        "Supply Chain Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723377956,
-          "updated_at": "2026-09-30T13:41:13Z"
-        },
-        "production-tests": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723377666,
-          "updated_at": "2026-09-30T13:41:02Z"
+          "run_id": 37157465923,
+          "updated_at": "2026-10-03T22:09:35Z"
         },
         "dependency-audit": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723377647,
-          "updated_at": "2026-09-30T13:41:02Z"
+          "run_id": 37157465985,
+          "updated_at": "2026-10-03T22:09:41Z"
+        },
+        "production-tests": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37157465900,
+          "updated_at": "2026-10-03T22:09:39Z"
+        },
+        "security-sbom": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37157465950,
+          "updated_at": "2026-10-03T22:09:43Z"
+        },
+        "CI": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37157465916,
+          "updated_at": "2026-10-03T22:09:50Z"
+        },
+        "Portfolio Coverage Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 37157465889,
+          "updated_at": "2026-10-03T22:09:54Z"
         }
       }
     }
