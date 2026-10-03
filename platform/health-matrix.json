@@ -1020,12 +1020,6 @@
           "run_id": 36723562876,
           "updated_at": "2026-09-30T13:42:52Z"
         },
-        "Domain Executable Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723561260,
-          "updated_at": "2026-09-30T13:42:45Z"
-        },
         "Executable Test Evidence": {
           "status": "completed",
           "conclusion": "success",
@@ -1038,17 +1032,23 @@
           "run_id": 36723561059,
           "updated_at": "2026-09-30T13:42:39Z"
         },
-        "production-tests": {
+        "Domain Executable Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723561204,
-          "updated_at": "2026-09-30T13:43:24Z"
+          "run_id": 36723561260,
+          "updated_at": "2026-09-30T13:42:45Z"
         },
         "ci": {
           "status": "completed",
           "conclusion": "success",
           "run_id": 36723561276,
           "updated_at": "2026-09-30T13:43:30Z"
+        },
+        "production-tests": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 36723561204,
+          "updated_at": "2026-09-30T13:43:24Z"
         },
         "Portfolio Coverage Evidence": {
           "status": "completed",
@@ -1093,29 +1093,11 @@
           "run_id": 36997047872,
           "updated_at": "2026-10-02T10:44:21Z"
         },
-        "Executable Test Evidence": {
+        "dependency-audit": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723653735,
-          "updated_at": "2026-09-30T13:44:21Z"
-        },
-        "Domain Executable Evidence": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723653772,
-          "updated_at": "2026-09-30T13:44:30Z"
-        },
-        "ci": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723653761,
-          "updated_at": "2026-09-30T13:44:49Z"
-        },
-        "production-tests": {
-          "status": "completed",
-          "conclusion": "success",
-          "run_id": 36723653682,
-          "updated_at": "2026-09-30T13:44:09Z"
+          "run_id": 36723653745,
+          "updated_at": "2026-09-30T13:44:03Z"
         },
         "Engineering Contract": {
           "status": "completed",
@@ -1129,11 +1111,29 @@
           "run_id": 36723653711,
           "updated_at": "2026-09-30T13:43:32Z"
         },
-        "dependency-audit": {
+        "Executable Test Evidence": {
           "status": "completed",
           "conclusion": "success",
-          "run_id": 36723653745,
-          "updated_at": "2026-09-30T13:44:03Z"
+          "run_id": 36723653735,
+          "updated_at": "2026-09-30T13:44:21Z"
+        },
+        "production-tests": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 36723653682,
+          "updated_at": "2026-09-30T13:44:09Z"
+        },
+        "Domain Executable Evidence": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 36723653772,
+          "updated_at": "2026-09-30T13:44:30Z"
+        },
+        "ci": {
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 36723653761,
+          "updated_at": "2026-09-30T13:44:49Z"
         }
       }
     },
