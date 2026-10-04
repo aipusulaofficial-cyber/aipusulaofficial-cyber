@@ -1,0 +1,33 @@
+name: Health Matrix Head Validation
+
+on:
+  workflow_run:
+    workflows: ["Platform Health Matrix"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-current-main:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c # v6.0.0
+        with:
+          python-version: "3.11"
+      - name: Validate refreshed matrix and platform contracts
+        run: |
+          python -m pip install --disable-pip-version-check pytest
+          python -m json.tool platform/evidence.schema.json >/dev/null
+          python -m pytest platform/test_end_to_end.py platform/test_evidence.py -q
+          python -m compileall -q platform
+          python -m pip check
+          test -f platform/health-matrix.json
+          test -f docs/PLATFORM-HEALTH-MATRIX.md
