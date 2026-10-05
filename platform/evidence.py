@@ -12,6 +12,10 @@ class TraceContext:
     trace_id: str = field(default_factory=lambda: str(uuid4()))
 
 def evidence(ctx: TraceContext, stage: str, decision: str, **data) -> dict:
+    protected = {"request_id", "trace_id", "stage", "decision", "timestamp"}
+    collisions = protected.intersection(data)
+    if collisions:
+        raise ValueError(f"evidence metadata cannot override protected fields: {sorted(collisions)}")
     if not stage:
         raise ValueError("stage is required")
     if decision not in DECISIONS:
